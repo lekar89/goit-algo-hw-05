@@ -13,5 +13,5 @@ def binary_search(arr, target):
         else:
             right = mid - 1
             upper_bound = arr[mid] 
-
+    print(upper_bound)
     return iterations, upper_bound

@@ -45,6 +45,7 @@ class HashTable:
                     pair[1] = None
                     return True
             self.table[key_hash].append(key_value)
+            print("Deleted")
             return True
 
 
